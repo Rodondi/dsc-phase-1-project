@@ -54,6 +54,8 @@ We also explored the top movie studios with the highest average ratings, providi
 Furthermore, we investigated the most common genres of high-rated movies to guide the studio's production decisions.
 
 ### The Trend of Total Gross Revenue Over the Years
+![fig1](https://github.com/Rodondi/dsc-phase-1-project/assets/133044105/534c76da-619a-4d85-a382-daffc108b120)
+
 
 ![graph](./images/fig1.png)
 
