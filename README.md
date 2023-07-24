@@ -102,10 +102,6 @@ Collaborate with Top-Rated Studios: Consider partnerships or collaborations with
 
 Engage with the Audience: Actively engage with the audience to encourage voting and participation. Increased audience engagement can lead to higher ratings and valuable feedback for future improvements.
 
-Next, we recommend you check out [the Phase 1 Project Templates and Examples repo](https://github.com/learn-co-curriculum/dsc-project-template) and use the MVP template for your project.
-
-Alternatively, you can fork [the Phase 1 Project Repository](https://github.com/learn-co-curriculum/dsc-phase-1-project), clone it locally, and work in the `student.ipynb` file. Make sure to also add and commit a PDF of your presentation to your repository with a file name of `presentation.pdf`.
-
 ## Limitations and Future Steps
 
 While our analysis provides valuable insights, it has certain limitations. The movie industry is dynamic, and factors influencing movie success can change rapidly. Continuous monitoring and adaptation are necessary to stay competitive. To further improve this project, we can explore advanced predictive modeling and sentiment analysis techniques to better understand audience preferences.
