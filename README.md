@@ -1,65 +1,117 @@
-# Phase 1 Project
+# Data-Driven Insights for Microsoft's New Movie Studio
 
-You've made it all the way through the first phase of this course - take a minute to celebrate your awesomeness!
+## Table of Contents
 
-![awesome](https://raw.githubusercontent.com/learn-co-curriculum/dsc-phase-1-project/master/awesome.gif)
+* Introduction
+* Business Problem
+* Data Understanding
+* Data Preparation
+* Exploratory Data Analysis
+* Business Recommendations
+* Limitations and Future Steps
+* Conclusion
 
-Now you will put your new skills to use with a large end-of-Phase project! This project should take 20 to 30 hours to complete.
+## Introduction
 
-## Project Overview
+Welcome to Microsoft's New Movie Studio Data Insights! In this project, I aim to discover the secrets of box office success by analyzing various factors that influence a movie's performance. 
 
-For this project, you will use exploratory data analysis to generate insights for a business stakeholder.
+By exploring genres, ratings, runtime, and audience engagement, I strive to provide valuable insights for making data-driven decisions in the movie industry.
 
-### Business Problem
+## Business Problem
 
-Microsoft sees all the big companies creating original video content and they want to get in on the fun. They have decided to create a new movie studio, but they don’t know anything about creating movies. You are charged with exploring what types of films are currently doing the best at the box office. You must then translate those findings into actionable insights that the head of Microsoft's new movie studio can use to help decide what type of films to create.
+The movie industry is highly competitive, and producing successful films requires a deep understanding of audience preferences and market trends. 
 
-### The Data
+Microsoft's New Movie Studio aims to leverage data-driven insights to enhance the chances of creating well-received and commercially successful movies. 
 
-In the folder `zippedData` are movie datasets from:
+The key challenges include identifying the most promising genres, collaborating with successful studios, and engaging the audience effectively.
 
-* [Box Office Mojo](https://www.boxofficemojo.com/)
-* [IMDB](https://www.imdb.com/)
-* [Rotten Tomatoes](https://www.rottentomatoes.com/)
-* [TheMovieDB](https://www.themoviedb.org/)
-* [The Numbers](https://www.the-numbers.com/)
+## Data Understanding
 
-It is up to you to decide what data from this to use and how to use it. If you want to make this more challenging, you can scrape websites or make API calls to get additional data. If you are feeling overwhelmed or behind (e.g. struggled with the Phase 1 Code Challenge), we recommend you use only the following data files:
+Movie data was collected from the following sources:
 
-* imdb.title.basics
-* imdb.title.ratings
-* bom.movie_gross
+* Box Office Mojo.
+* IMDB.
+* Rotten Tomatoes.
+* TheMovieDB.
+* The Numbers.
 
-## Deliverables
+The datasets contains valuable variables such as movie genres, runtime, ratings, and the number of votes. 
 
-There are three deliverables for this project:
+Our target variable is the average rating, which serves as a measure of audience satisfaction.
 
-* A **GitHub repository**
-* A **Jupyter Notebook**
-* A **non-technical presentation**
+## Data Preparation
 
-Review the "Project Submission & Review" page in the "Milestones Instructions" topic for instructions on creating and submitting your deliverables. Refer to the rubric associated with this assignment for specifications describing high-quality deliverables.
+To ensure the accuracy of our analysis, we performed data cleaning, removing irrelevant information and handling missing values. 
 
-### Key Points
+Additionally, we calculated the total gross revenue of each movie to understand the overall financial success.
 
-* **Your analysis should yield three concrete business recommendations.** The ultimate purpose of exploratory analysis is not just to learn about the data, but to help an organization perform better. Explicitly relate your findings to business needs by recommending actions that you think the business (Microsoft) should take.
+## Exploratory Data Analysis
 
-* **Communicating about your work well is extremely important.** Your ability to provide value to an organization - or to land a job there - is directly reliant on your ability to communicate with them about what you have done and why it is valuable. Create a storyline your audience (the head of Microsoft's new movie studio) can follow by walking them through the steps of your process, highlighting the most important points and skipping over the rest.
+Through exploratory data analysis, we identified trends in total gross revenue over the years, highlighting the movie industry's growth and profitability. 
 
-* **Use plenty of visualizations.** Visualizations are invaluable for exploring your data and making your findings accessible to a non-technical audience. Spotlight visuals in your presentation, but only ones that relate directly to your recommendations. Simple visuals are usually best (e.g. bar charts and line graphs), and don't forget to format them well (e.g. labels, titles).
+We also explored the top movie studios with the highest average ratings, providing insights for potential collaborations. 
 
-## Getting Started
+Furthermore, we investigated the most common genres of high-rated movies to guide the studio's production decisions.
 
-Please start by reviewing this assignment, the rubric at the bottom of it, and the "Project Submission & Review" page. If you have any questions, please ask your instructor ASAP.
+### The Trend of Total Gross Revenue Over the Years
+
+![graph](./images/fig1.png)
+
+The total gross revenue has generally increased over time, indicating a growth in the movie industry's revenue generation
+
+### Movie Studios Having the Highest Average Ratings for their Films
+
+![graph](./images/fig2.png)
+
+Trafalgar, NAV, GrtIndia, SHO, BSC, PDA,App., Good Deed, RME and MUBI movie studios received the highest average ratings for their films. This indicates their strong performance in delivering movies that are well-received by the audience.
+
+### Most Common Genres of Movies that have Received High Ratings
+
+![graph](./images/fig3.png)
+
+Drama, Documentary, Comedy, Action, Adventure, Biography, Romance, Crime, Thriller and Animation genres have the movies with high ratings (i.e., movies with an average rating above 7.5). 
+This indicates their popularity and frequency in movies that have been well-received by the audience.
+
+### The Correlation Between the Runtime of a Movie and its Average Rating
+
+![graph](./images/fig4.png)
+
+I found a correlation coefficient of 0.1373. This a weak positive correlation between the runtime of a movie and its average rating.
+Meaning that the increase in average rating with longer runtime is not very strong.
+
+### How the Number of Votes Received by a Movie Impacts its Average Rating
+
+![graph](./images/fig5.png)
+
+I found a correlation coefficient of 0.2619. There is a positive correlation between the number of votes received by a movie and its average rating.
+Meaning that, on average, as the number of votes received by a movie increases, its average rating tends to increase as well.
+
+## Business Recommendations
+
+Based on this analysis, I propose the following recommendations for Microsoft's New Movie Studio:
+* Focus on Popular Genres: Concentrate movie production efforts on genres that have consistently received high ratings, such as Drama, Documentary, Comedy, and Action. These genres have a higher chance of resonating with the audience.
+
+* Collaborate with Top-Rated Studios: Consider partnerships or collaborations with studios that have a proven track record of producing high-rated films. Collaborating with successful studios can boost the studio's reputation and increase the likelihood of producing successful movies.
+* Engage with the Audience: Actively engage with the audience to encourage voting and participation. Increased audience engagement can lead to higher ratings and valuable feedback for future improvements.
+
+Based on our analysis, we propose the following recommendations for Microsoft's New Movie Studio:
+
+Focus on Popular Genres: Concentrate movie production efforts on genres that have consistently received high ratings, such as Drama, Documentary, Comedy, and Action. These genres have a higher chance of resonating with the audience.
+
+Collaborate with Top-Rated Studios: Consider partnerships or collaborations with studios that have a proven track record of producing high-rated films. Collaborating with successful studios can boost the studio's reputation and increase the likelihood of producing successful movies.
+
+Engage with the Audience: Actively engage with the audience to encourage voting and participation. Increased audience engagement can lead to higher ratings and valuable feedback for future improvements.
 
 Next, we recommend you check out [the Phase 1 Project Templates and Examples repo](https://github.com/learn-co-curriculum/dsc-project-template) and use the MVP template for your project.
 
 Alternatively, you can fork [the Phase 1 Project Repository](https://github.com/learn-co-curriculum/dsc-phase-1-project), clone it locally, and work in the `student.ipynb` file. Make sure to also add and commit a PDF of your presentation to your repository with a file name of `presentation.pdf`.
 
-## Project Submission and Review
+## Limitations and Future Steps
 
-Review the "Project Submission & Review" page in the "Milestones Instructions" topic to learn how to submit your project and how it will be reviewed. Your project must pass review for you to progress to the next Phase.
+While our analysis provides valuable insights, it has certain limitations. The movie industry is dynamic, and factors influencing movie success can change rapidly. Continuous monitoring and adaptation are necessary to stay competitive. To further improve this project, we can explore advanced predictive modeling and sentiment analysis techniques to better understand audience preferences.
 
-## Summary
+In the future, integrating real-time data and conducting market research surveys for direct audience feedback would enhance our decision-making process.
 
-This project will give you a valuable opportunity to develop your data science skills using real-world data. The end-of-phase projects are a critical part of the program because they give you a chance to bring together all the skills you've learned, apply them to realistic projects for a business stakeholder, practice communication skills, and get feedback to help you improve. You've got this!
+## Conclusion
+
+This analysis equips Microsoft's New Movie Studio with data-driven insights to make strategic decisions in the competitive movie industry. By focusing on popular genres, collaborating with successful studios, and actively engaging with the audience, the studio can improve its chances of producing successful and well-received films.
