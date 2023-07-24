@@ -54,36 +54,34 @@ We also explored the top movie studios with the highest average ratings, providi
 Furthermore, we investigated the most common genres of high-rated movies to guide the studio's production decisions.
 
 ### The Trend of Total Gross Revenue Over the Years
+
 ![fig1](https://github.com/Rodondi/dsc-phase-1-project/assets/133044105/534c76da-619a-4d85-a382-daffc108b120)
-
-
-![graph](./images/fig1.png)
 
 The total gross revenue has generally increased over time, indicating a growth in the movie industry's revenue generation
 
 ### Movie Studios Having the Highest Average Ratings for their Films
 
-![graph](./images/fig2.png)
+![fig2](https://github.com/Rodondi/dsc-phase-1-project/assets/133044105/00d6deb8-aeb3-4c85-bf6a-5e611a9eec5f)
 
 Trafalgar, NAV, GrtIndia, SHO, BSC, PDA,App., Good Deed, RME and MUBI movie studios received the highest average ratings for their films. This indicates their strong performance in delivering movies that are well-received by the audience.
 
 ### Most Common Genres of Movies that have Received High Ratings
 
-![graph](./images/fig3.png)
+![fig3](https://github.com/Rodondi/dsc-phase-1-project/assets/133044105/d109ecaa-9039-40a0-897e-82fbd4ce6e92)
 
 Drama, Documentary, Comedy, Action, Adventure, Biography, Romance, Crime, Thriller and Animation genres have the movies with high ratings (i.e., movies with an average rating above 7.5). 
 This indicates their popularity and frequency in movies that have been well-received by the audience.
 
 ### The Correlation Between the Runtime of a Movie and its Average Rating
 
-![graph](./images/fig4.png)
+![fig4](https://github.com/Rodondi/dsc-phase-1-project/assets/133044105/a4d09d51-2073-448c-9eb7-2d12a238d116)
 
 I found a correlation coefficient of 0.1373. This a weak positive correlation between the runtime of a movie and its average rating.
 Meaning that the increase in average rating with longer runtime is not very strong.
 
 ### How the Number of Votes Received by a Movie Impacts its Average Rating
 
-![graph](./images/fig5.png)
+![fig5](https://github.com/Rodondi/dsc-phase-1-project/assets/133044105/bcfa2e13-d342-4914-97ca-792dd5a92597)
 
 I found a correlation coefficient of 0.2619. There is a positive correlation between the number of votes received by a movie and its average rating.
 Meaning that, on average, as the number of votes received by a movie increases, its average rating tends to increase as well.
